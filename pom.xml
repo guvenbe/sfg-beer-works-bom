@@ -455,7 +455,13 @@
             </plugins>
         </pluginManagement>
     </build>
-
+    <extensions>
+        <extension>
+            <groupId>io.packagecloud.maven.wagon</groupId>
+            <artifactId>maven-packagecloud-wagon</artifactId>
+            <version>0.0.6</version>
+        </extension>
+    </extensions>
     <profiles>
         <profile>
             <id>dockerbuild</id>
@@ -561,13 +567,13 @@
     </issueManagement>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>packagecloud.release</id>
+            <url>packagecloud+https://packagecloud.io/guvenbe/release</url>
         </repository>
+        <snapshotRepository>
+            <id>packagecloud.snapshot</id>
+            <url>packagecloud+https://packagecloud.io/guvenbe/snapshot</url>
+        </snapshotRepository>
     </distributionManagement>
 </project>

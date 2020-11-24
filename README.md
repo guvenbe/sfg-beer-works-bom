@@ -1,3 +1,3 @@
 SFG Beer Works BOM
 
-Common BOM for SFG Beer Works Projects
+Common BOM for SFG Beer Works Projects 

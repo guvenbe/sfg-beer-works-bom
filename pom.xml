@@ -571,7 +571,7 @@
         <connection>scm:git:git@github.com:guvenbe/sfg-beer-works-bom.git</connection>
         <developerConnection>scm:git:git@github.com:guvenbe/sfg-beer-works-bom.git</developerConnection>
         <url>https://github.com/guvenbe/sfg-beer-works-bom</url>
-        <tag>sfg-beer-works-bom-1.0.26</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <issueManagement>

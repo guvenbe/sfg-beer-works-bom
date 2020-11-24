@@ -378,7 +378,7 @@
                         </configuration>
                     </execution>
                     <execution>
-                        <id>post-unit-test</id>
+                        <id>post-unit-test-reporting</id>
                         <phase>test</phase>
                         <goals>
                             <goal>report</goal>

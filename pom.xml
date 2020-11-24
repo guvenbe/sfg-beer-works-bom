@@ -27,7 +27,7 @@
 
     <groupId>com.github.bg-beer-works</groupId>
     <artifactId>sfg-beer-works-bom</artifactId>
-    <version>1.0.50-SNAPHOT</version>
+    <version>1.0.50-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <description>Parent Project for SFG Beer Works Projects</description>

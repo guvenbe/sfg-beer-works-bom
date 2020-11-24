@@ -377,6 +377,20 @@
                             <!--<propertyName>failsafeArgLine</propertyName>-->
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>post-unit-test</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                        <configuration>
+                            <!-- Sets the path to the file which contains the execution data. -->
+
+                            <dataFile>target/jacoco.exec</dataFile>
+                            <!-- Sets the output directory for the code coverage report. -->
+                            <outputDirectory>target/my-reports</outputDirectory>
+                        </configuration>
+                    </execution>
                     <!--
                         Ensures that the code coverage report for integration tests after
                         integration tests have been run.

@@ -27,7 +27,7 @@
 
     <groupId>com.github.bg-beer-works</groupId>
     <artifactId>sfg-beer-works-bom</artifactId>
-    <version>1.0.50</version>
+    <version>1.0.51-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <description>Parent Project for SFG Beer Works Projects</description>
@@ -571,7 +571,7 @@
         <connection>scm:git:git@github.com:guvenbe/sfg-beer-works-bom.git</connection>
         <developerConnection>scm:git:git@github.com:guvenbe/sfg-beer-works-bom.git</developerConnection>
         <url>https://github.com/guvenbe/sfg-beer-works-bom</url>
-        <tag>sfg-beer-works-bom-1.0.50</tag>
+        <tag>sfg-beer-works-bom-1.0.26</tag>
     </scm>
 
     <issueManagement>

@@ -25,9 +25,9 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.github.sfg-beer-works</groupId>
+    <groupId>com.github.bg-beer-works</groupId>
     <artifactId>sfg-beer-works-bom</artifactId>
-    <version>1.0.26</version>
+    <version>1.0.26-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <description>Parent Project for SFG Beer Works Projects</description>
@@ -306,6 +306,18 @@
                 </executions>
             </plugin>
             <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>cobertura-maven-plugin</artifactId>
+                <version>2.7</version>
+                <configuration>
+                    <formats>
+                        <format>html</format>
+                        <format>xml</format>
+                    </formats>
+                    <check />
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.6.0.1398</version>
@@ -563,7 +575,7 @@
     </scm>
 
     <issueManagement>
-        <url>https://github.com/sfg-beer-works/sfg-beer-works/issues</url>
+        <url>https://github.com/guvenbe/sfg-beer-works/issues</url>
         <system>GitHub</system>
     </issueManagement>
 
